@@ -2,5 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CSharp_Grundlagenkurs/.vs
-/CSharp_Grundlagenkurs/Modul002Demos/obj
+.vs
+obj
+bin
+
