@@ -1,0 +1,15 @@
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.AssemblyInfo.cs
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\bin\Debug\net7.0\Modul002Demos.exe
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\bin\Debug\net7.0\Modul002Demos.deps.json
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\bin\Debug\net7.0\Modul002Demos.runtimeconfig.json
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\bin\Debug\net7.0\Modul002Demos.dll
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\bin\Debug\net7.0\Modul002Demos.pdb
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.dll
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\refint\Modul002Demos.dll
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.pdb
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\Modul002Demos.genruntimeconfig.cache
+C:\Aktueller Kurs\CSharp_Grundlagen_KW51_222910\CSharp_Grundlagenkurs\Modul002Demos\obj\Debug\net7.0\ref\Modul002Demos.dll
