@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_Demo_Namspaces", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrittanbieterDll", "DrittanbieterDll\DrittanbieterDll.csproj", "{2098B811-99CD-4804-A8D1-A701EE7A9DC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_Demo_Klassen_Eigenschaften_Felder", "Modul006_Demo_Klassen_Eigenschaften_Felder\Modul006_Demo_Klassen_Eigenschaften_Felder.csproj", "{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{2098B811-99CD-4804-A8D1-A701EE7A9DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2098B811-99CD-4804-A8D1-A701EE7A9DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2098B811-99CD-4804-A8D1-A701EE7A9DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{AA462FAB-4747-41C6-85B5-C110432C0B3A} = {25963C47-0955-48BC-A976-0DCA7447CEDF}
 		{83BBA743-890C-4C41-8923-C3C5E382DB58} = {F4744795-A275-4BAB-9661-48835B2F310A}
 		{2098B811-99CD-4804-A8D1-A701EE7A9DC1} = {F4744795-A275-4BAB-9661-48835B2F310A}
+		{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0} = {F4744795-A275-4BAB-9661-48835B2F310A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21CE749A-EA67-4BB2-8A1C-064BA647A26C}

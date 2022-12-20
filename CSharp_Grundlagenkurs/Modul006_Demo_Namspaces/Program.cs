@@ -15,7 +15,7 @@ namespace Modul006_Demo_Namspaces
             Console.WriteLine("Hello, World!");
 
             //Damit ich das Enum Wochentag verwenden kann muss ich: using ZweitesNamespace einfügen
-            Wochentag wochentag = Wochentag.Di;
+            ZweitesNamespace.Wochentag wochentag = ZweitesNamespace.Wochentag.Di;
 
             //Das Enum Anrede kommt mehrmals vor. Hier können wir Explizet (mithilfe der Namespace-Angabe) hinschreiben, welches Enum gemeint 
             ZweitesNamespace.Anrede AnredeAusZweitenNameSpace = ZweitesNamespace.Anrede.Divers;
