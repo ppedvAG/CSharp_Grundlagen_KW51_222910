@@ -13,15 +13,28 @@ namespace Modul005_Demo
 
 
             //Aufruf der Params-Funktion
-            BildeSumme(2, 3, 4);
-            BildeSumme(4, 8, 5, 7, 34, 22, 12);
+            int erg = BildeSumme(2, 3, 4);
+            erg = BildeSumme(4, 8, 5, 7, 34, 22, 12);
 
 
-
-
+            //Aufruf einer Funktion unter Verwendung der optionalen Parameter
             Subtrahieren(11, 12, 13, 14);
             Subtrahieren(11, 12, 13); //d = 0
             Subtrahieren(11, 12); //c=0 und d=0
+
+            //Aufruf der Out-Funktion
+
+
+            //ref -> einfache Referenz ohne Einschränkungen
+            //out -> Referenz die eine Zuweisung erfahren muss 
+            //in  -> Referenz nur ReadOnly 
+
+            int zahl = 5;
+            int? diff = 0;
+            erg = AddiereUndSubtrahiere(10, zahl, ref diff);
+
+            Console.WriteLine(erg);
+            Console.WriteLine(diff);
 
         }
 
@@ -35,8 +48,6 @@ namespace Modul005_Demo
 
         static double Addiere(double a, double b)
             => a+ b;
-
-
 
         //Das PARAMS-Stichwort erlaubt die Übergabe einer beliebige Anzahl von gleichartigen Daten, welche innerhalb
         //der Methode als Array interpretiert werden
@@ -52,7 +63,6 @@ namespace Modul005_Demo
             return summe;
         }
 
-
         ///Wird einem Parameter mittels =-Zeichen ein Defaultwert zugewiesen wird dieser Parameter OPTIONAL und muss bei Aufruf nicht zwangs-
         ///läufig mitgegeben werden. OPTIONALE Parameter müssen am Ende der Parameter stehen.
         static int Subtrahieren (int a, int b, int c = 0, int d = 0)
@@ -60,5 +70,10 @@ namespace Modul005_Demo
             return a - b - c - d;
         }
 
+        static int AddiereUndSubtrahiere(int a, int b, ref int? differenz)
+        {
+            differenz = a - b;
+            return a + b;
+        }
     }
 }
