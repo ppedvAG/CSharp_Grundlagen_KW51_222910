@@ -1,4 +1,7 @@
-﻿namespace Modul004Demo
+﻿using System.Runtime.ConstrainedExecution;
+using System;
+
+namespace Modul004Demo
 {
     internal class Program
     {
@@ -111,10 +114,11 @@
             //So bitte nicht!!!!!
             string[] wochentageStringArray = { "Mo", "Di", "Mi", "Do", "Fr", "Sa", "So" };
 
+           
             //So bitte nicht!!!!!
             if (wochentageStringArray[3] == "Mi")
             {
-                
+                Console.WriteLine("");
             }
             #endregion
 
@@ -124,7 +128,7 @@
             #endregion
 
 
-            #region Enum und sein Index
+            #region Enum und sein Index und Casting
 
             //For-Schleife über die möglichen Zustande des Enumerators
             Console.WriteLine("Welcher Wochentag ist dein Lieblingstag?");
@@ -134,16 +138,148 @@
             }
             #endregion
 
+            #region Weitere Castings
             //Speichern einer Benutzereingabe (Int) als Enumerator
             //Cast: Int -> Wochentag
 
             wochentag = (Wochentag)int.Parse(Console.ReadLine());
-            Console.WriteLine($"Dein Lieblingstag ist alsoi {wochentag}");
+            Console.WriteLine($"Dein Lieblingstag ist  {wochentag}");
+
+
+            //wochentag wird zu Fr
+            wochentag = (Wochentag)Enum.Parse(typeof(Wochentag), "So");
+            #endregion
+
+            #region Switch-Statement mit Typprüfung und Casting
+
+            //Geschwindikeit hat ein Switch einen Vortel 
+            if (wochentag == Wochentag.Fr)
+            {
+                Console.WriteLine("Ich bin dann mal offline");
+            }
+            else if (wochentag == Wochentag.Sa)
+            {
+                Console.WriteLine("Ich bin am Sa mal offline");
+            }
+            else if (wochentag == Wochentag.So)
+            {
+                Console.WriteLine("Ich bin am So offline");
+            }
+            else
+            {
+                Console.WriteLine("Wochenende schon vorbei?");
+            }
+
+            switch (wochentag)
+            {
+                case Wochentag.Mo:
+                    //Code den wir ausführen wollen 
+                    Console.WriteLine("Mo beginnt die Woche");
+                    break;
+                case Wochentag.Di:
+                    Console.WriteLine("Es ist Di");
+                    break;
+                case Wochentag.Mi:
+                    break;
+                case Wochentag.Do:
+                    break;
+                case Wochentag.Fr: //Wenn Fr oder Sa oder So 
+                case Wochentag.Sa:
+                case Wochentag.So:
+                    Console.WriteLine("Geschenke am WE einkaufen");
+                    break;
+                default:
+                    Console.WriteLine("Kein Wochentag wurde selektiert");
+                    break;
+            }
+
+
+
+            MethodeXYZ(-37);
+            MethodeXYZ("Hello User");
+
+            IfMethodeWithObject(32);
 
             #endregion
+
+
+            #region BitFlags
+            
+            // Display all possible combinations of values.
+            Console.WriteLine(
+                 "All possible combinations of values without FlagsAttribute:");
+
+            for (int val = 0; val <= 16; val++)
+                Console.WriteLine("{0,3} - {1:G}", val, (SingleFarbton)val);
+
+
+
+
+
+            // Display all combinations of values, and invalid values.
+            Console.WriteLine(
+                 "\nAll possible combinations of values with FlagsAttribute:");
+            for (int val = 0; val <= 16; val++)
+                Console.WriteLine("{0,3} - {1:G}", val, (MultiFarbton)val);
+            #endregion
+
+            #endregion
+        }
+
+        public static void MethodeXYZ(object param)
+        {
+            switch (param)
+            {
+                case 5:
+                    Console.WriteLine("zahl ist 5");
+                    break;
+                case int z when z < 0:
+                    Console.WriteLine("z < 0");
+                    break;
+                case string str when str.StartsWith("Hello"):
+                    Console.WriteLine("World");
+                    break;
+                default:
+                    Console.WriteLine("Typ nicht erkannt");
+                break;
+            }
+        }
+
+
+        public static void IfMethodeWithObject(object param)
+        {
+            if (param is int number)
+            {
+                if (number < 0)
+                {
+                    Console.WriteLine("z < 0");
+                }
+            }
         }
     }
 
 
-    enum Wochentag { Mo=1, Di, Mi, Do, Fr, Sa, So}
+    enum Wochentag { NotInitialized=0, Mo, Di, Mi, Do, Fr, Sa, So}
+
+    
+    //Enum Ohne Flags-Attribute
+    enum SingleFarbton : short
+    {
+        None = 0,
+        Black = 1,
+        Red = 2,
+        Green = 4,
+        Blue = 8
+    };
+
+    [Flags]
+    enum MultiFarbton : short
+    {
+        None = 0,
+        Black = 1,
+        Red = 2,
+        Green = 4,
+        Blue = 8
+    };
+
 }

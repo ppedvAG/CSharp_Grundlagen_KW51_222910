@@ -6,10 +6,9 @@
 //NAMESPACE: Die Umgebung unseres aktuellen Programm: Innerhalb der geschweiften Klammern befinden sich alle Datentypen (Klassen, Struct, Events, Enums..usw)
 //in dem Namespace -> Modul002Demos. 
 
-using System.Security.Authentication;
-using System.Security.Cryptography.X509Certificates;
+
 using System.Text;
-using static System.Formats.Asn1.AsnWriter;
+
 
 namespace Modul002Demos
 {
@@ -133,6 +132,8 @@ namespace Modul002Demos
 
             //Variable X und Variable Z
             int x = 509; //X & Y hat ein eigenen Speicheradresse
+
+            
 
             int y = x; //Hier wird eine Kopie weitergeben 
             x = 501;
