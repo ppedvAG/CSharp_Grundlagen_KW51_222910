@@ -14,7 +14,8 @@ namespace StringBuilderBenchmarkDemo
             hallo += "Kevin";
 
 
-
+            
+            
 
             string aufbauenderString = string.Empty;
 
