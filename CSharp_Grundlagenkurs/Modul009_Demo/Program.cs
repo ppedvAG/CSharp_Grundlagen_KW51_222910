@@ -138,7 +138,7 @@ namespace Modul009_Demo
 
 
 
-
+    #region Polymorphie-Beispiel 2
     public abstract class MyTextDocumentBase : Document
     {
         public abstract string GetVersion();
@@ -182,4 +182,5 @@ namespace Modul009_Demo
             Console.WriteLine("MyTextDocumentVersion3");
         }
     }
+    #endregion
 }
