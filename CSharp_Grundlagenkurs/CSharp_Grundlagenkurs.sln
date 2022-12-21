@@ -17,27 +17,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul004_Schleifen_Enums", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul004Demo", "Modul004Demo\Modul004Demo.csproj", "{AE9DAD21-9787-41D8-BC73-CF870C96A1B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul004_Solution", "Modul004_Solution\Modul004_Solution.csproj", "{97F32AB7-728B-4D70-A9A8-562C4A877BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul004_Solution", "Modul004_Solution\Modul004_Solution.csproj", "{97F32AB7-728B-4D70-A9A8-562C4A877BA1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul005_Funktionen", "Modul005_Funktionen", "{25963C47-0955-48BC-A976-0DCA7447CEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul005_Demo", "Modul005_Demo\Modul005_Demo.csproj", "{863117E8-0B48-43D7-AD70-02D674422154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul005_Demo", "Modul005_Demo\Modul005_Demo.csproj", "{863117E8-0B48-43D7-AD70-02D674422154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul005_Solution", "Modul005_Solution\Modul005_Solution.csproj", "{AA462FAB-4747-41C6-85B5-C110432C0B3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul005_Solution", "Modul005_Solution\Modul005_Solution.csproj", "{AA462FAB-4747-41C6-85B5-C110432C0B3A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul006_Namespace_Klassen_Felder_Eigentschaften", "Modul006_Namespace_Klassen_Felder_Eigentschaften", "{F4744795-A275-4BAB-9661-48835B2F310A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_Demo_Namspaces", "Modul006_Demo_Namspaces\Modul006_Demo_Namspaces.csproj", "{83BBA743-890C-4C41-8923-C3C5E382DB58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_Demo_Namspaces", "Modul006_Demo_Namspaces\Modul006_Demo_Namspaces.csproj", "{83BBA743-890C-4C41-8923-C3C5E382DB58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrittanbieterDll", "DrittanbieterDll\DrittanbieterDll.csproj", "{2098B811-99CD-4804-A8D1-A701EE7A9DC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrittanbieterDll", "DrittanbieterDll\DrittanbieterDll.csproj", "{2098B811-99CD-4804-A8D1-A701EE7A9DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_Demo_Klassen_Eigenschaften_Felder", "Modul006_Demo_Klassen_Eigenschaften_Felder\Modul006_Demo_Klassen_Eigenschaften_Felder.csproj", "{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_Demo_Klassen_Eigenschaften_Felder", "Modul006_Demo_Klassen_Eigenschaften_Felder\Modul006_Demo_Klassen_Eigenschaften_Felder.csproj", "{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul006_Solution", "Modul006_Solution\Modul006_Solution.csproj", "{FB546787-55E4-488A-A5C1-F9BB1A217DD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul006_Solution", "Modul006_Solution\Modul006_Solution.csproj", "{FB546787-55E4-488A-A5C1-F9BB1A217DD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul007_Garbage Collection Statische Member Werte und Referenzen", "Modul007_Garbage Collection Statische Member Werte und Referenzen", "{E3C9C44E-34CB-4BE2-9C5D-BA7D9CA22B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo007", "Demo007\Demo007.csproj", "{90FBE002-71AD-4454-99CF-5569451AC52D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo007", "Demo007\Demo007.csproj", "{90FBE002-71AD-4454-99CF-5569451AC52D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenchmarkTest", "BenchmarkTest", "{50B4EC8D-7841-450E-8EF5-78B124F93675}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderBenchmarkDemo", "StringBuilderBenchmarkDemo\StringBuilderBenchmarkDemo.csproj", "{386DE17A-6109-4771-94B5-3A9F97372C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,10 @@ Global
 		{90FBE002-71AD-4454-99CF-5569451AC52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FBE002-71AD-4454-99CF-5569451AC52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FBE002-71AD-4454-99CF-5569451AC52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386DE17A-6109-4771-94B5-3A9F97372C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386DE17A-6109-4771-94B5-3A9F97372C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386DE17A-6109-4771-94B5-3A9F97372C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386DE17A-6109-4771-94B5-3A9F97372C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +118,7 @@ Global
 		{0FA99BDD-FB4F-49C5-A08B-18BDD2147AF0} = {F4744795-A275-4BAB-9661-48835B2F310A}
 		{FB546787-55E4-488A-A5C1-F9BB1A217DD3} = {F4744795-A275-4BAB-9661-48835B2F310A}
 		{90FBE002-71AD-4454-99CF-5569451AC52D} = {E3C9C44E-34CB-4BE2-9C5D-BA7D9CA22B5A}
+		{386DE17A-6109-4771-94B5-3A9F97372C64} = {50B4EC8D-7841-450E-8EF5-78B124F93675}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21CE749A-EA67-4BB2-8A1C-064BA647A26C}
