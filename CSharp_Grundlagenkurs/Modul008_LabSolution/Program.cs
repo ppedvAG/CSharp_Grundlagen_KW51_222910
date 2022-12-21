@@ -100,8 +100,6 @@
         #endregion
     }
 
-
-
     public class Schiff : Fahrzeug
     {
         //Klasseneigener Enum
