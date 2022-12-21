@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenchmarkTest", "BenchmarkT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderBenchmarkDemo", "StringBuilderBenchmarkDemo\StringBuilderBenchmarkDemo.csproj", "{386DE17A-6109-4771-94B5-3A9F97372C64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul007_LabSolution", "Modul007_LabSolution\Modul007_LabSolution.csproj", "{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{386DE17A-6109-4771-94B5-3A9F97372C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386DE17A-6109-4771-94B5-3A9F97372C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{386DE17A-6109-4771-94B5-3A9F97372C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{FB546787-55E4-488A-A5C1-F9BB1A217DD3} = {F4744795-A275-4BAB-9661-48835B2F310A}
 		{90FBE002-71AD-4454-99CF-5569451AC52D} = {E3C9C44E-34CB-4BE2-9C5D-BA7D9CA22B5A}
 		{386DE17A-6109-4771-94B5-3A9F97372C64} = {50B4EC8D-7841-450E-8EF5-78B124F93675}
+		{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C} = {E3C9C44E-34CB-4BE2-9C5D-BA7D9CA22B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21CE749A-EA67-4BB2-8A1C-064BA647A26C}
