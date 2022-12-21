@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_Demo_VirtualOverri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_Demo_AbstractOverrideSample", "Modul008_Demo_AbstractOverrideSample\Modul008_Demo_AbstractOverrideSample.csproj", "{E2303F67-BABF-41F1-803C-7E7F9C81B7AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_LabSolution", "Modul008_LabSolution\Modul008_LabSolution.csproj", "{02696978-FD74-439F-85C0-6F8181B2C12B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{E2303F67-BABF-41F1-803C-7E7F9C81B7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2303F67-BABF-41F1-803C-7E7F9C81B7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2303F67-BABF-41F1-803C-7E7F9C81B7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02696978-FD74-439F-85C0-6F8181B2C12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02696978-FD74-439F-85C0-6F8181B2C12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02696978-FD74-439F-85C0-6F8181B2C12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02696978-FD74-439F-85C0-6F8181B2C12B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{D9592DEA-549D-46A7-BCB7-075B79021120} = {F0BB2BBC-052A-4932-89AF-EF24A96B7F30}
 		{522CF78E-DEFE-4688-9431-E4BA6B097483} = {F0BB2BBC-052A-4932-89AF-EF24A96B7F30}
 		{E2303F67-BABF-41F1-803C-7E7F9C81B7AB} = {F0BB2BBC-052A-4932-89AF-EF24A96B7F30}
+		{02696978-FD74-439F-85C0-6F8181B2C12B} = {F0BB2BBC-052A-4932-89AF-EF24A96B7F30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21CE749A-EA67-4BB2-8A1C-064BA647A26C}
