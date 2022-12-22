@@ -13,3 +13,19 @@ Virtual:
 
 
 
+
+
+- Delegate Teil 2
+- Exception-Handling
+- Erweiterungsmethoden
+- Linq und Lamda-Schreibweise
+- Unit-Tests
+- SOLID 
+- Indexer 
+- Operatoren 
+
+
+
+
+
+

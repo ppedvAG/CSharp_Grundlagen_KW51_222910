@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateWithCallbacks", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateWithCallback.DrittanbieterDll", "DelegateWithCallback.DrittanbieterDll\DelegateWithCallback.DrittanbieterDll.csproj", "{001752A2-8D59-4753-A0E9-2F8ABA2EF862}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateEventsAndEventHandler", "DelegateEventsAndEventHandler\DelegateEventsAndEventHandler.csproj", "{9BA69502-C758-465F-9BBC-7152C84F764A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,6 +176,10 @@ Global
 		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA69502-C758-465F-9BBC-7152C84F764A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA69502-C758-465F-9BBC-7152C84F764A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA69502-C758-465F-9BBC-7152C84F764A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA69502-C758-465F-9BBC-7152C84F764A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,6 +208,7 @@ Global
 		{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
 		{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
 		{001752A2-8D59-4753-A0E9-2F8ABA2EF862} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
+		{9BA69502-C758-465F-9BBC-7152C84F764A} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21CE749A-EA67-4BB2-8A1C-064BA647A26C}
