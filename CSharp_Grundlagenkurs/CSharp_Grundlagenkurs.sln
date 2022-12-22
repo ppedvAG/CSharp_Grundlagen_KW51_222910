@@ -43,25 +43,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenchmarkTest", "BenchmarkT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderBenchmarkDemo", "StringBuilderBenchmarkDemo\StringBuilderBenchmarkDemo.csproj", "{386DE17A-6109-4771-94B5-3A9F97372C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul007_LabSolution", "Modul007_LabSolution\Modul007_LabSolution.csproj", "{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul007_LabSolution", "Modul007_LabSolution\Modul007_LabSolution.csproj", "{70DDFAD0-67B1-430C-94EA-6AE3890BDE9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul008_Vererbung", "Modul008_Vererbung", "{F0BB2BBC-052A-4932-89AF-EF24A96B7F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_Demo", "Modul008_Demo\Modul008_Demo.csproj", "{D9592DEA-549D-46A7-BCB7-075B79021120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_Demo", "Modul008_Demo\Modul008_Demo.csproj", "{D9592DEA-549D-46A7-BCB7-075B79021120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_Demo_VirtualOverrideSample", "Modul008_Demo_VirtualOverrideSample\Modul008_Demo_VirtualOverrideSample.csproj", "{522CF78E-DEFE-4688-9431-E4BA6B097483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_Demo_VirtualOverrideSample", "Modul008_Demo_VirtualOverrideSample\Modul008_Demo_VirtualOverrideSample.csproj", "{522CF78E-DEFE-4688-9431-E4BA6B097483}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_Demo_AbstractOverrideSample", "Modul008_Demo_AbstractOverrideSample\Modul008_Demo_AbstractOverrideSample.csproj", "{E2303F67-BABF-41F1-803C-7E7F9C81B7AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_Demo_AbstractOverrideSample", "Modul008_Demo_AbstractOverrideSample\Modul008_Demo_AbstractOverrideSample.csproj", "{E2303F67-BABF-41F1-803C-7E7F9C81B7AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul008_LabSolution", "Modul008_LabSolution\Modul008_LabSolution.csproj", "{02696978-FD74-439F-85C0-6F8181B2C12B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul008_LabSolution", "Modul008_LabSolution\Modul008_LabSolution.csproj", "{02696978-FD74-439F-85C0-6F8181B2C12B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul009_Polymorphie", "Modul009_Polymorphie", "{32B8A840-8423-4F3D-B76A-21EF052C5295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul009_Demo", "Modul009_Demo\Modul009_Demo.csproj", "{B42F3554-62EC-4033-817E-20ED561AD646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul009_Demo", "Modul009_Demo\Modul009_Demo.csproj", "{B42F3554-62EC-4033-817E-20ED561AD646}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul010_Interfaces", "Modul010_Interfaces", "{8DADDB59-3106-4FED-B89C-98768E573CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul010_Demo", "Modul010_Demo\Modul010_Demo.csproj", "{DE36C8BC-C892-4CEE-B379-A97AFFAA3B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul010_Demo", "Modul010_Demo\Modul010_Demo.csproj", "{DE36C8BC-C892-4CEE-B379-A97AFFAA3B8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2681D114-A260-4478-A756-9843E712906B}"
+	ProjectSection(SolutionItems) = preProject
+		AbstractVsInterfacesVsVirtual.txt = AbstractVsInterfacesVsVirtual.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modul011_Delegates", "Modul011_Delegates", "{1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateActionFuncSample", "DelegateActionFuncSample\DelegateActionFuncSample.csproj", "{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateWithCallbacks", "DelegateWithCallbacks\DelegateWithCallbacks.csproj", "{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateWithCallback.DrittanbieterDll", "DelegateWithCallback.DrittanbieterDll\DelegateWithCallback.DrittanbieterDll.csproj", "{001752A2-8D59-4753-A0E9-2F8ABA2EF862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +162,18 @@ Global
 		{DE36C8BC-C892-4CEE-B379-A97AFFAA3B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE36C8BC-C892-4CEE-B379-A97AFFAA3B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE36C8BC-C892-4CEE-B379-A97AFFAA3B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001752A2-8D59-4753-A0E9-2F8ABA2EF862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +199,9 @@ Global
 		{02696978-FD74-439F-85C0-6F8181B2C12B} = {F0BB2BBC-052A-4932-89AF-EF24A96B7F30}
 		{B42F3554-62EC-4033-817E-20ED561AD646} = {32B8A840-8423-4F3D-B76A-21EF052C5295}
 		{DE36C8BC-C892-4CEE-B379-A97AFFAA3B8E} = {8DADDB59-3106-4FED-B89C-98768E573CCE}
+		{DBA65C15-D57D-4F27-9C86-E677A9BAA5B9} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
+		{D2DCF530-4319-44AF-9A80-6B1DD65BCFFC} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
+		{001752A2-8D59-4753-A0E9-2F8ABA2EF862} = {1F1FD7B9-6920-4E0E-9450-79BBAA4A58DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21CE749A-EA67-4BB2-8A1C-064BA647A26C}

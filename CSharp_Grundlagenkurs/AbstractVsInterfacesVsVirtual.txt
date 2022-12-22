@@ -1,0 +1,15 @@
+
+
+
+
+Interfaces: 
+Interfaces können dezentral in einer Klassen eingebaut werden 
+
+Abstract: 
+- Abstrakte-Klassen werden in einer Hierachie verwendet -> Die abgeleiteten Klassen haben einen groben Bezug zueinander (siehe SQL-Provider -> siehe abstract DBConnection.Open -  Methode )
+
+Virtual:
+- Klassen mit virtuellen Methoden werden in einer Hierachie verwendet -> abgeleitete Klassen haben einen näheren Bezug zueinander als bei abstract.
+
+
+
